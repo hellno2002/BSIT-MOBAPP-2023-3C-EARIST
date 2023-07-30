@@ -10,6 +10,8 @@
 ![8](https://github.com/hellno2002/BSIT-MOBAPP-2023-3C-EARIST/assets/140881099/d4558c58-a3a5-4477-9888-9633dcb96d45)
 ![9](https://github.com/hellno2002/BSIT-MOBAPP-2023-3C-EARIST/assets/140881099/3ca716b7-ae10-4b75-824c-8cb68f61f311)
 
+# DEMO VIDEO
+Click here to watch: https://drive.google.com/file/d/1f32kl5j9gWynYip0xvK0o3crp7Xu-q8E/view?usp=drive_link
 # Researcher/Developer:
 Siena, Arahvela
 
