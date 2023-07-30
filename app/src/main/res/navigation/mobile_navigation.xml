@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.it3c_partialapps_grp5_2.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_records"
+            app:destination="@id/navigation_records"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_records"
+        android:name="com.example.it3c_partialapps_grp5_2.ui.records.RecordsFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_records" >
+        <action
+            android:id="@+id/action_navigation_records_to_navigation_accounts"
+            app:destination="@id/navigation_accounts" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_accounts"
+        android:name="com.example.it3c_partialapps_grp5_2.ui.accounts.AccountsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_accounts" >
+        <action
+            android:id="@+id/action_navigation_accounts_to_navigation_history"
+            app:destination="@id/navigation_history" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.it3c_partialapps_grp5_2.ui.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_navigation_history_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.it3c_partialapps_grp5_2.ui.openingView.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/mainLoginActivity"
+        android:name="com.example.it3c_partialapps_grp5_2.ui.openingView.MainLoginActivity"
+        android:label="activity_main_login"
+        tools:layout="@layout/activity_main_login" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.example.it3c_partialapps_grp5_2.ui.openingView.RegisterActivity"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <activity
+        android:id="@+id/splashScreenActivity"
+        android:name="com.example.it3c_partialapps_grp5_2.ui.openingView.SplashScreenActivity"
+        android:label="activity_splash_screen"
+        tools:layout="@layout/activity_splash_screen" />
+</navigation>

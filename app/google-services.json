@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "221570457983",
+    "project_id": "transactionslogger",
+    "storage_bucket": "transactionslogger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221570457983:android:f8b21df080a968e9d8fa4a",
+        "android_client_info": {
+          "package_name": "com.example.it3c_partialapps_grp5_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221570457983-r8pkn9pavdi06i9ob94k4qu3eluldt9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpcQfeeBdGzquVgTVl91_M_icRE1TR9-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221570457983-r8pkn9pavdi06i9ob94k4qu3eluldt9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

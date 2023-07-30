@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="Widget.Theme.IT3C_PartialApps_grp5_2.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.IT3C_PartialApps_grp5_2.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/acme</item>
+    </style>
+
+<!--    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">-->
+<!--        <item name="colorAccent">@color/theme_color_brown</item>-->
+<!--    </style>-->
+</resources>
